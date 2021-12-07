@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-size: 16px;
+}
+
+h1 {
+	color: #aaaaaa;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+		Geneva, Verdana, sans-serif;
+	font-size: 3em;
+}
+
+.barcode {
+	background-color: transparent;
+	height: 22mm;
+	width: 45mm;
+
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.barcode_label {
+	border: 3px solid navy;
+	border-radius: 4px;
+	align-items: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	height: 45mm;
+	width: 50mm;
+
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+.barcode_desc {
+	align-items: center;
+	display: flex;
+	font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 0.85em;
+	min-height: 15mm;
+	justify-content: center;
+	line-height: 1em;
+	padding: 2px;
+	text-align: center;
+	width: 100%;
+
+	position: relative;
+	left: 0;
+	bottom: 3px;
+	z-index: 1;
+}
+.barcode_name {
+	align-items: center;
+	background-color: navy;
+	color: #fff;
+	display: flex;
+	font-family: monospace;
+	font-size: 1.2em;
+	font-weight: 800;
+	height: 7mm;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+#barcode_container {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 5px;
+}
