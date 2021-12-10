@@ -1,5 +1,9 @@
 const Materials = [
 	{
+		name: "FIFI",
+		desc: "Cesar Fimbres",
+	},
+	{
 		name: "2RDA016742A0001",
 		desc: "KIT GSEC ASSEMBLY",
 	},
@@ -136,12 +140,8 @@ const Materials = [
 		desc: "KIT SG.APERTURA SMART COIL 60V DC/AC",
 	},
 	{
-		name: "2RDA021163A0004",
-		desc: "KIT SG.APERTURA SMARTCOIL 110�127V DC/AC",
-	},
-	{
 		name: "2RDA021163A0005",
-		desc: "KIT SG.APERTURA SMARTCOIL 220�250V DC/AC",
+		desc: "KIT SG.APERTURA SMARTCOIL 220...250V DC/AC",
 	},
 	{
 		name: "2RDA021162A0004",
@@ -160,12 +160,8 @@ const Materials = [
 		desc: "KIT SG.CHIUSURA SMART COIL 60V DC/AC",
 	},
 	{
-		name: "2RDA021162A0004",
-		desc: "KIT SG.CHIUSURA SMARTCOIL 110�127V DC/AC",
-	},
-	{
 		name: "2RDA021162A0005",
-		desc: "KIT SG.CHIUSURA SMARTCOIL 220�250V DC/AC",
+		desc: "KIT SG.CHIUSURA SMARTCOIL 220...250V DC/AC",
 	},
 	{
 		name: "2RDA017790A0004",
@@ -201,11 +197,11 @@ const Materials = [
 	},
 	{
 		name: "2RDA008658A0001",
-		desc: "",
+		desc: "AUXILIARY CONTACT ASSEMBLED",
 	},
 	{
 		name: "3WDA006941P0001",
-		desc: "",
+		desc: "12-POLE FEMALE CONNECTOR WEID.1207000000",
 	},
 	{
 		name: "3WDA009117P0001",
@@ -840,10 +836,6 @@ const Materials = [
 		desc: "HEX BOLTS FLANGE-M10X25-STEEL 8.8 T21279",
 	},
 	{
-		name: "3WDA020579P0001",
-		desc: "VPIS APPLICATIONS IN UNISEC",
-	},
-	{
 		name: "41844",
 		desc: "S.LOCK SCREW CH TORX PLUS T21565/6x12mm",
 	},
@@ -988,10 +980,6 @@ const Materials = [
 		desc: "FAIRLEAD",
 	},
 	{
-		name: "28629",
-		desc: "NUT T21099/M8",
-	},
-	{
 		name: "2RAA004553P0001",
 		desc: "FRONT LEFT PROFILE",
 	},
@@ -1022,10 +1010,6 @@ const Materials = [
 	{
 		name: "2RCA023931P0001",
 		desc: "EARTHING BAR 500",
-	},
-	{
-		name: "2RCA025652P0001",
-		desc: "EARTHING SPRING FOR P.I.",
 	},
 	{
 		name: "2RDA017910P0001",
@@ -1148,14 +1132,6 @@ const Materials = [
 		desc: "INTERLOCK SPRING",
 	},
 	{
-		name: "1VCR015144F0001",
-		desc: "FIELD CONTROL CAP",
-	},
-	{
-		name: "1VFM184305P1",
-		desc: "FIELD CONTROL COVER",
-	},
-	{
 		name: "28802",
 		desc: "WASHER.EL.INOX RT-T22106/6,4",
 	},
@@ -1184,10 +1160,6 @@ const Materials = [
 		desc: "SUPPORT FOR MECHANISM COVERS 750mm",
 	},
 	{
-		name: "2RCA007072P0001",
-		desc: "FIELD CONTROL CAP M10",
-	},
-	{
 		name: "2RCA007092P0001",
 		desc: "VT AND CT LV WIRING TRUNK",
 	},
@@ -1206,10 +1178,6 @@ const Materials = [
 	{
 		name: "2RCA021959P0001",
 		desc: "CT LV WIRING TRUNK CONNECTION POINT",
-	},
-	{
-		name: "2RCA023391P0001",
-		desc: "FIELD CONTROL",
 	},
 	{
 		name: "2RDA009373P0001",
@@ -1476,100 +1444,16 @@ const Materials = [
 		desc: "NUT T21099/M5 M5 Flange Head Hexagon Body Blind Rivet Nut - Open End",
 	},
 	{
-		name: "00691",
-		desc: "NUT T21099/M6 M6 Flange Head Hexagon Body Blind Rivet Nut - Open End",
-	},
-	{
 		name: "00798",
 		desc: "T34042 Capacitive Post Insulator For Indoors",
-	},
-	{
-		name: "00859",
-		desc: "SCREW T21066/M6X15",
-	},
-	{
-		name: "03366",
-		desc: "STEEL RIVET T22205/4,8 TS",
-	},
-	{
-		name: "06271",
-		desc: "CABLE ANTIF RT-T14018/1X6T",
-	},
-	{
-		name: "07661",
-		desc: "WASHER RT-T22120/B6",
-	},
-	{
-		name: "07663",
-		desc: "WASHER AC EL DIN137 RT-T22120/B1",
-	},
-	{
-		name: "07664",
-		desc: "WASHER RT-T22120/B12",
-	},
-	{
-		name: "07686",
-		desc: "WASHER AC EL DIN137 RT-T22120/8",
-	},
-	{
-		name: "07687",
-		desc: "WASHER AC EL DIN137 RT-T22120/M10",
-	},
-	{
-		name: "08858",
-		desc: "WASHER EL ACC RT-T22100/10,5",
-	},
-	{
-		name: "09381",
-		desc: "SCREW TE FD ACC RT-T21279/8X16",
-	},
-	{
-		name: "09384",
-		desc: "SCREW TE FD ACC RT-T21279/8X20",
-	},
-	{
-		name: "09385",
-		desc: "SCREW ACCTE FLDEN RT-T21279/M8X25",
-	},
-	{
-		name: "09388",
-		desc: "NUT ES FD ACC RT-T21299/8",
 	},
 	{
 		name: "09390",
 		desc: "NUT ES FD ACC RT-T21299/6",
 	},
 	{
-		name: "09929",
-		desc: "ELASTIC WASHER ACC RT-T22104/10",
-	},
-	{
-		name: "12868",
-		desc: "SCREW TE FD RT-T21279/M6X12",
-	},
-	{
-		name: "12870",
-		desc: "SCREW TE FD ACC RT-T21279/M6X25",
-	},
-	{
-		name: "12950",
-		desc: "SCREW RT-T21066/M8X15",
-	},
-	{
-		name: "13216",
-		desc: "JELLY RT-T16850/A1",
-	},
-	{
-		name: "16743",
-		desc: "LABEL RT-T27412/20",
-	},
-	{
 		name: "16745",
 		desc: "LABEL Danger high voltage",
-	},
-	{
-		name: "18447",
-		desc: "CABLE TERMINAL RT-T28102/3,4X6,3",
 	},
 	{
 		name: "1VCF559416R0167",
@@ -1588,48 +1472,12 @@ const Materials = [
 		desc: "0",
 	},
 	{
-		name: "1VCR002675F0001",
-		desc: "FAIRLEAD",
-	},
-	{
-		name: "20665",
-		desc: "O-RING RT-T25810/6,02X2,62",
-	},
-	{
-		name: "25467",
-		desc: "INSULATOR RES RT-T34033/125",
-	},
-	{
-		name: "25541",
-		desc: "NUT RT-T21099/M10",
-	},
-	{
-		name: "25543",
-		desc: "NUT RT-T21096/M8",
-	},
-	{
-		name: "28629",
-		desc: "NUT RT-T21099/M8",
-	},
-	{
-		name: "28802",
-		desc: "WASHER.EL.INOX RT-T22106/6,4",
-	},
-	{
 		name: "2RAA005473P0001",
 		desc: "Partition Plate",
 	},
 	{
-		name: "2RCA006785P0001",
-		desc: "Guide Pin",
-	},
-	{
 		name: "2RCA006908p0001",
 		desc: "Bus Bar Right Out",
-	},
-	{
-		name: "2RCA007092P0001",
-		desc: "VT AND CT LV WIRING TRUNK",
 	},
 	{
 		name: "2RCA007131P0001",
@@ -1648,630 +1496,6 @@ const Materials = [
 		desc: "Mounting Bracket for Field controller",
 	},
 	{
-		name: "2RCA021940P0001",
-		desc: "CABLE DUCT",
-	},
-	{
-		name: "2RCA023861P0001",
-		desc: "COVER PLATE",
-	},
-	{
-		name: "2RCA025499P0001",
-		desc: "CT LV WIRING TRUNK CONNECTION POINT",
-	},
-	{
-		name: "2RCA026799P0001",
-		desc: "Protection Plate",
-	},
-	{
-		name: "2RDA008238P0001",
-		desc: "HINGE SCREW",
-	},
-	{
-		name: "2RDA008239P0001",
-		desc: "HINGE NUT",
-	},
-	{
-		name: "2RDA013607P0001",
-		desc: "NAMEPLATE UniSec",
-	},
-	{
-		name: "2RDA013921P0001",
-		desc: "DOOR PIN",
-	},
-	{
-		name: "2RDA015234P0001",
-		desc: "LOCK SCREW",
-	},
-	{
-		name: "2RDA016672P0001",
-		desc: "FAIRLEAD",
-	},
-	{
-		name: "2RDA017910P0001",
-		desc: "CABLE COVER",
-	},
-	{
-		name: "2RDA017971P0001",
-		desc: "SIDE WALL RIGHT",
-	},
-	{
-		name: "2RDA017973P0001",
-		desc: "SIDE WALL RIGHT OPENING",
-	},
-	{
-		name: "2RDA017975P0001",
-		desc: "REAR LEFT PROFILE",
-	},
-	{
-		name: "2RDA018271P0001",
-		desc: "FRONT MIDDLE PROFILE 375 DRC/DRS",
-	},
-	{
-		name: "2RDA018555P0001",
-		desc: "DOOR LOCK",
-	},
-	{
-		name: "2RDA018638P0001",
-		desc: "DIRECT BUSBAR",
-	},
-	{
-		name: "2RDA018647P0001",
-		desc: "CONNECTION BAR FOR SECTION BARS",
-	},
-	{
-		name: "2RDA018778P0001",
-		desc: "COVER FOR LVC OPENING",
-	},
-	{
-		name: "2RDA018995P0001",
-		desc: "ANGLE EARTH SWITCH CONTACT BAR",
-	},
-	{
-		name: "2RDA019608P0001",
-		desc: "BOTTOM COVER",
-	},
-	{
-		name: "2RDA019708P0001",
-		desc: "INSULATORS SUPPORT ON FLOOR",
-	},
-	{
-		name: "2RDA019744P0001",
-		desc: "LOWER INSULATORS CROSSPIECE (SBS 750 mm)",
-	},
-	{
-		name: "2RDA019813P0001",
-		desc: "MIDDLE SUPPORT 750",
-	},
-	{
-		name: "2RDA020678P0001",
-		desc: "FIELD CONTROL RING BRACKET",
-	},
-	{
-		name: "2RDA020873P0001",
-		desc: "Busbar CB-PI",
-	},
-	{
-		name: "2RDA021222P0001",
-		desc: "LINE DIAGRAM SDC",
-	},
-	{
-		name: "2RDA021226P0001",
-		desc: "LINE DIAGRAM SFC",
-	},
-	{
-		name: "2RDA021229P0001",
-		desc: "LINE DIAGRAM SBS",
-	},
-	{
-		name: "2RDA021232P0001",
-		desc: "LINE DIAGRAM SBS (RIGHT SIDE)",
-	},
-	{
-		name: "2RDA021235P0001",
-		desc: "LINE DIAGRAM DRS LEFT",
-	},
-	{
-		name: "2RDA022951P0001",
-		desc: "Line diagram UMP right - BE",
-	},
-	{
-		name: "2RDA022952P0001",
-		desc: "Line diagram UMP right - BE",
-	},
-	{
-		name: "2RDA023525P0001",
-		desc: "WINDOW",
-	},
-	{
-		name: "2RDA027614P0001",
-		desc: "CABLE FIXING CROSSPIECE",
-	},
-	{
-		name: "2RDA028163P0001",
-		desc: "CABLE ENTRY COVER",
-	},
-	{
-		name: "3WCA006889P0008",
-		desc: "SELF CLINCHING STUD PEM FH-M5X10",
-	},
-	{
-		name: "3WCA006889P0014",
-		desc: "SELF CLINCHING STUD PEM FH-M6-10",
-	},
-	{
-		name: "3WCA006889P0015",
-		desc: "SELF CLINCHING STUD PEM FH-M4X0.7",
-	},
-	{
-		name: "3WCA006889P0017",
-		desc: "SELF CLINCHING STUD PEM FH-M6-18",
-	},
-	{
-		name: "3WCA006896P0010",
-		desc: "SELF CLINCHING NUT PEM S-M10-2",
-	},
-	{
-		name: "3WCA021390P0009",
-		desc: "TORX PLUS SCREW M4X10",
-	},
-	{
-		name: "3WCA021660P0004",
-		desc: "COPPER CABLE LUG - TUBULAR 50 mm",
-	},
-	{
-		name: "3WCA021728P0001",
-		desc: "GENERATOR CAP MTA SPA",
-	},
-	{
-		name: "3WCA022288P0007",
-		desc: "COPPER CABLE LUG-TUBULAR 16mm2-M8",
-	},
-	{
-		name: "3WCA022942P0001",
-		desc: "HANDLE INDUSTRIAL 575033",
-	},
-	{
-		name: "3WCA023025P0001",
-		desc: "DRIVE FASTENER D5 SKIFFY 091 001",
-	},
-	{
-		name: "3WCA023291P0008",
-		desc: "RIVET NUT TUBTARA M10X23 (520 669)",
-	},
-	{
-		name: "3WCA023322P0015",
-		desc: "RING TERMINAL M6 4,0-6,0 SQ.mm",
-	},
-	{
-		name: "3WCA023322P0017",
-		desc: "RING TERMINAL M10; 4,0 - 6,0 SQ.mm",
-	},
-	{
-		name: "3WDA007725P0003",
-		desc: "NUTS M8",
-	},
-	{
-		name: "3WDA007812P0001",
-		desc: "RIVET ACC T22205/4.8 TT",
-	},
-	{
-		name: "3WDA014448P0007",
-		desc: "CABLE SINGLE-POLE H0ZV-K BLACK 6.0 SQ.mm",
-	},
-	{
-		name: "3WDA014888P0001",
-		desc: "SYLICON CAP MWD W=250mm",
-	},
-	{
-		name: "3WDA015252P0023",
-		desc: "CABLE H07V-K GREEN-AND-YELLOW 16",
-	},
-	{
-		name: "3WDA017909P0002",
-		desc: "HEX-SCR ISO4762 M6X14-8.8/ZNBC6F",
-	},
-	{
-		name: "3WDA019281P0036",
-		desc: "HEX BOLTS FLANGE-M10X25-STEEL 8.8 T21279",
-	},
-	{
-		name: "3WDA019281P0049",
-		desc: "HEX BOLTS FLANGE-M12X25-STEEL 8..8T21279",
-	},
-	{
-		name: "41844",
-		desc: "S.LOCK SCREW CH TORX PLUS T21565/6x12mm",
-	},
-	{
-		name: "47504",
-		desc: "SHEATH T17111/50R RAYCHEN BPTM50",
-	},
-	{
-		name: "49519",
-		desc: "HB WF T21279/M10X20",
-	},
-	{
-		name: "49528",
-		desc: "TE FD STEEL SCREW T21279-M6X20",
-	},
-	{
-		name: "500214203",
-		desc: "WASHER 3.2 mm Zp",
-	},
-	{
-		name: "9ABA450016P0212",
-		desc: "HEX-SCR ISO4762 M8X55-8.8/ZNBC6F T21218",
-	},
-	{
-		name: "9ABA450017P0154",
-		desc: "HEX-SCR ISO4762 M6X8-S8.8/ZNBLC6F T21216",
-	},
-	{
-		name: "9ABA450017P0156",
-		desc: "HEX-SCR ISO4762 M6X12-8.8/ZNBC6F",
-	},
-	{
-		name: "9ABA450017P0209",
-		desc: "HEX-SCR ISO4762 M8X20-8.8/ZNBC6F T21216",
-	},
-	{
-		name: "9ABA450017P0261",
-		desc: "HEX-SCRISO4762M10X25-8.8/ZNBC6FT21216",
-	},
-	{
-		name: "9ABA450017P0313",
-		desc: "HEX-SCR ISO4762 M12X30-8.8/ZNBC6F T21216",
-	},
-	{
-		name: "9ABA450023P0260",
-		desc: "HEX-SCR ISO4017 M6X20-8.8/ZNBC6F T21200",
-	},
-	{
-		name: "9ABA450060P0003",
-		desc: "NUT-NMINST ISO7040 M5-8/ZNBLC6F",
-	},
-	{
-		name: "9ABA450060P0004",
-		desc: "NUT-NMINST ISO7040 M6-8/ZNBC6F",
-	},
-	{
-		name: "9ABA450064P4103",
-		desc: "S-CTSK ISO10642 M5X12-10.9/ZNBC6F T21336",
-	},
-	{
-		name: "9ABA460067P0257",
-		desc: "HEX-SCR ISO7380 M6X12-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P0260",
-		desc: "HEX-S-SCR ISO7380 M6X20-10.9/ZNBLC6F",
-	},
-	{
-		name: "9ABA460067P0310",
-		desc: "HEX-SCR ISO7380 M8X20-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P0311",
-		desc: "HEX-SCR ISO7380 M8X25-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8011",
-		desc: "HEX-SCISO7380M10X16-10.9/ZNBC6FT21326",
-	},
-	{
-		name: "9ABA460067P8015",
-		desc: "HEX-SC ISO7380 M10X25-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8017",
-		desc: "HEX-SCR ISO7380 M10X30-10.9/ZNBC6 T21326",
-	},
-	{
-		name: "9ABA460067P8018",
-		desc: "HEX-SC ISO7380 M10X35-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8117",
-		desc: "HEX-SCR ISO7380 M12X30/10.9/ZNC6F T21326",
-	},
-	{
-		name: "9ADA120-32",
-		desc: "HEX HEAD SCREW M 8* 20 8.8-A2F ISO",
-	},
-	{
-		name: "9ADA120-34",
-		desc: "HEX-SCR ISO4017 M8X30-8.8/ZNBL T21200",
-	},
-	{
-		name: "9ADA120-407",
-		desc: "HEX-HD-SCR_ISO4017_M6X8-8.8/ZNBL",
-	},
-	{
-		name: "9ADA120-61",
-		desc: "HEX-SCR ISO4017 M12X40-8.8/ZNBL T21200",
-	},
-	{
-		name: "9ADA181-23",
-		desc: "HEX-B DIN6921 M8X20-8.8/ZNBL T21279",
-	},
-	{
-		name: "9ADA181-36",
-		desc: "HEX-B DIN6921 M10X25-8.8/ZNBL T21279",
-	},
-	{
-		name: "9ADA267-6",
-		desc: "NUT ISO4032 M6-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-7",
-		desc: "NUT ISO4032 M8-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-8",
-		desc: "NUT ISO4032 M10-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-9",
-		desc: "NUT ISO4032 M12-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA312-5",
-		desc: "PL-WASH ISO7089 5x10X1-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA312-6",
-		desc: "PL-WASH ISO7089 6x12X1.6-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA312-8",
-		desc: "PL-WASH ISO7089 10X20X2-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA334-6",
-		desc: "WASH-SP DIN6796 6.4/14-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-7",
-		desc: "WASH-SP DIN6796 8.4/18-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-8",
-		desc: "WASH-SP DIN6796 10.5/23-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-9",
-		desc: "WASH-SP DIN6796 13/29-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA618-54",
-		desc: "SCR-S-HLBL ISO14583 M6X10-8.8/ZNBL",
-	},
-	{
-		name: "9ADA618-55",
-		desc: "SCR-S-HLBL_ISO14583_M6X12-8.8/ZNBL",
-	},
-	{
-		name: "9ADA618-57",
-		desc: "SCR-S-HLBL_ISO14583_M6X20-8.8/ZNBL",
-	},
-	{
-		name: "9ADJ100012P0004",
-		desc: "NUT-NMINST_LH_ISO10511_M5-05/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0054",
-		desc: "CHD-SN-B ISO8678 M8X20-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0105",
-		desc: "CHD-SN-BISO8678M10X25-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0107",
-		desc: "CHD-SN-B_ISO8678_M10X35-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0157",
-		desc: "CUP SQUARE BOLT ISO8678 M12X35-S8.8-A2F",
-	},
-	{
-		name: "9ADJ100047P0155",
-		desc: "CHD-SN-B DIN603 M10X35-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100047P0204",
-		desc: "CHD-SN-B DIN603 M12X30-8.8/ZNBLC",
-	},
-	{
-		name: "9ADJ100047P0204",
-		desc: "CHD-SN-B DIN603 M12X30-8.8/ZNBLC",
-	},
-	{
-		name: "00690",
-		desc: "NUT T21099/M5 M5 Flange Head Hexagon Body Blind Rivet Nut - Open End",
-	},
-	{
-		name: "00691",
-		desc: "NUT T21099/M6 M6 Flange Head Hexagon Body Blind Rivet Nut - Open End",
-	},
-	{
-		name: "00798",
-		desc: "T34042 Capacitive Post Insulator For Indoors",
-	},
-	{
-		name: "00859",
-		desc: "SCREW T21066/M6X15",
-	},
-	{
-		name: "03366",
-		desc: "STEEL RIVET T22205/4,8 TS",
-	},
-	{
-		name: "06271",
-		desc: "CABLE ANTIF RT-T14018/1X6T",
-	},
-	{
-		name: "07661",
-		desc: "WASHER RT-T22120/B6",
-	},
-	{
-		name: "07663",
-		desc: "WASHER AC EL DIN137 RT-T22120/B1",
-	},
-	{
-		name: "07664",
-		desc: "WASHER RT-T22120/B12",
-	},
-	{
-		name: "07686",
-		desc: "WASHER AC EL DIN137 RT-T22120/8",
-	},
-	{
-		name: "07687",
-		desc: "WASHER AC EL DIN137 RT-T22120/M10",
-	},
-	{
-		name: "08858",
-		desc: "WASHER EL ACC RT-T22100/10,5",
-	},
-	{
-		name: "09381",
-		desc: "SCREW TE FD ACC RT-T21279/8X16",
-	},
-	{
-		name: "09384",
-		desc: "SCREW TE FD ACC RT-T21279/8X20",
-	},
-	{
-		name: "09385",
-		desc: "SCREW ACCTE FLDEN RT-T21279/M8X25",
-	},
-	{
-		name: "09388",
-		desc: "NUT ES FD ACC RT-T21299/8",
-	},
-	{
-		name: "09390",
-		desc: "NUT ES FD ACC RT-T21299/6",
-	},
-	{
-		name: "09929",
-		desc: "ELASTIC WASHER ACC RT-T22104/10",
-	},
-	{
-		name: "12868",
-		desc: "SCREW TE FD RT-T21279/M6X12",
-	},
-	{
-		name: "12870",
-		desc: "SCREW TE FD ACC RT-T21279/M6X25",
-	},
-	{
-		name: "12950",
-		desc: "SCREW RT-T21066/M8X15",
-	},
-	{
-		name: "13216",
-		desc: "JELLY RT-T16850/A1",
-	},
-	{
-		name: "16743",
-		desc: "LABEL RT-T27412/20",
-	},
-	{
-		name: "16745",
-		desc: "LABEL Danger high voltage",
-	},
-	{
-		name: "18447",
-		desc: "CABLE TERMINAL RT-T28102/3,4X6,3",
-	},
-	{
-		name: "1VCF559416R0167",
-		desc: "2Keys label for Gsec",
-	},
-	{
-		name: "1VCF559416R0168",
-		desc: "2Keys label for Gsec",
-	},
-	{
-		name: "1VCF559416R0375",
-		desc: "#N/A",
-	},
-	{
-		name: "1VCF559450R0210",
-		desc: "0",
-	},
-	{
-		name: "1VCR002675F0001",
-		desc: "FAIRLEAD",
-	},
-	{
-		name: "20665",
-		desc: "O-RING RT-T25810/6,02X2,62",
-	},
-	{
-		name: "25467",
-		desc: "INSULATOR RES RT-T34033/125",
-	},
-	{
-		name: "25541",
-		desc: "NUT RT-T21099/M10",
-	},
-	{
-		name: "25543",
-		desc: "NUT RT-T21096/M8",
-	},
-	{
-		name: "28629",
-		desc: "NUT RT-T21099/M8",
-	},
-	{
-		name: "28802",
-		desc: "WASHER.EL.INOX RT-T22106/6,4",
-	},
-	{
-		name: "2RAA005473P0001",
-		desc: "Partition Plate",
-	},
-	{
-		name: "2RCA006785P0001",
-		desc: "Guide Pin",
-	},
-	{
-		name: "2RCA006908p0001",
-		desc: "Bus Bar Right Out",
-	},
-	{
-		name: "2RCA007092P0001",
-		desc: "VT AND CT LV WIRING TRUNK",
-	},
-	{
-		name: "2RCA007131P0001",
-		desc: "Bracket for post insulator top",
-	},
-	{
-		name: "2RCA021459P0001",
-		desc: "Bracket for post insulators",
-	},
-	{
-		name: "2RCA021560P0001",
-		desc: "Busbar CB-PI",
-	},
-	{
-		name: "2RCA021887P0001",
-		desc: "Mounting Bracket for Field controller",
-	},
-	{
-		name: "2RCA021940P0001",
-		desc: "CABLE DUCT",
-	},
-	{
-		name: "2RCA023861P0001",
-		desc: "COVER PLATE",
-	},
-	{
 		name: "2RCA025499P0001",
 		desc: "CT LV WIRING TRUNK CONNECTION POINT",
 	},
@@ -2284,20 +1508,8 @@ const Materials = [
 		desc: "FAIRLEAD",
 	},
 	{
-		name: "2RDA017910P0001",
-		desc: "CABLE COVER",
-	},
-	{
-		name: "2RDA017971P0001",
-		desc: "SIDE WALL RIGHT",
-	},
-	{
 		name: "2RDA017973P0001",
 		desc: "SIDE WALL RIGHT OPENING",
-	},
-	{
-		name: "2RDA017975P0001",
-		desc: "REAR LEFT PROFILE",
 	},
 	{
 		name: "2RDA018271P0001",
@@ -2344,10 +1556,6 @@ const Materials = [
 		desc: "Busbar CB-PI",
 	},
 	{
-		name: "2RDA021222P0001",
-		desc: "LINE DIAGRAM SDC",
-	},
-	{
 		name: "2RDA021226P0001",
 		desc: "LINE DIAGRAM SFC",
 	},
@@ -2364,260 +1572,16 @@ const Materials = [
 		desc: "LINE DIAGRAM DRS LEFT",
 	},
 	{
-		name: "2RDA023525P0001",
-		desc: "WINDOW",
-	},
-	{
-		name: "2RDA027614P0001",
-		desc: "CABLE FIXING CROSSPIECE",
-	},
-	{
-		name: "2RDA028163P0001",
-		desc: "CABLE ENTRY COVER",
-	},
-	{
 		name: "3WCA006889P0015",
 		desc: "SELF CLINCHING STUD PEM FH-M4X0.7",
-	},
-	{
-		name: "3WCA006896P0010",
-		desc: "SELF CLINCHING NUT PEM S-M10-2",
-	},
-	{
-		name: "3WCA021390P0009",
-		desc: "TORX PLUS SCREW M4X10",
-	},
-	{
-		name: "3WCA021660P0004",
-		desc: "COPPER CABLE LUG - TUBULAR 50 mm",
-	},
-	{
-		name: "3WCA021728P0001",
-		desc: "GENERATOR CAP MTA SPA",
-	},
-	{
-		name: "3WCA022288P0007",
-		desc: "COPPER CABLE LUG-TUBULAR 16mm2-M8",
-	},
-	{
-		name: "3WCA022942P0001",
-		desc: "HANDLE INDUSTRIAL 575033",
-	},
-	{
-		name: "3WCA023025P0001",
-		desc: "DRIVE FASTENER D5 SKIFFY 091 001",
-	},
-	{
-		name: "3WCA023291P0008",
-		desc: "RIVET NUT TUBTARA M10X23 (520 669)",
-	},
-	{
-		name: "3WCA023322P0015",
-		desc: "RING TERMINAL M6 4,0-6,0 SQ.mm",
-	},
-	{
-		name: "3WCA023322P0017",
-		desc: "RING TERMINAL M10; 4,0 - 6,0 SQ.mm",
-	},
-	{
-		name: "3WDA007725P0003",
-		desc: "NUTS M8",
-	},
-	{
-		name: "3WDA007812P0001",
-		desc: "RIVET ACC T22205/4.8 TT",
-	},
-	{
-		name: "3WDA014448P0007",
-		desc: "CABLE SINGLE-POLE H0ZV-K BLACK 6.0 SQ.mm",
-	},
-	{
-		name: "3WDA014888P0001",
-		desc: "SYLICON CAP MWD W=250mm",
-	},
-	{
-		name: "3WDA015252P0023",
-		desc: "CABLE H07V-K GREEN-AND-YELLOW 16",
-	},
-	{
-		name: "3WDA017909P0002",
-		desc: "HEX-SCR ISO4762 M6X14-8.8/ZNBC6F",
-	},
-	{
-		name: "3WDA019281P0036",
-		desc: "HEX BOLTS FLANGE-M10X25-STEEL 8.8 T21279",
-	},
-	{
-		name: "3WDA019281P0049",
-		desc: "HEX BOLTS FLANGE-M12X25-STEEL 8..8T21279",
-	},
-	{
-		name: "41844",
-		desc: "S.LOCK SCREW CH TORX PLUS T21565/6x12mm",
-	},
-	{
-		name: "47504",
-		desc: "SHEATH T17111/50R RAYCHEN BPTM50",
-	},
-	{
-		name: "49519",
-		desc: "HB WF T21279/M10X20",
-	},
-	{
-		name: "49528",
-		desc: "TE FD STEEL SCREW T21279-M6X20",
 	},
 	{
 		name: "500214203",
 		desc: "WASHER 3.2 mm Zp",
 	},
 	{
-		name: "9ABA450016P0212",
-		desc: "HEX-SCR ISO4762 M8X55-8.8/ZNBC6F T21218",
-	},
-	{
-		name: "9ABA450017P0154",
-		desc: "HEX-SCR ISO4762 M6X8-S8.8/ZNBLC6F T21216",
-	},
-	{
-		name: "9ABA450017P0156",
-		desc: "HEX-SCR ISO4762 M6X12-8.8/ZNBC6F",
-	},
-	{
-		name: "9ABA450017P0209",
-		desc: "HEX-SCR ISO4762 M8X20-8.8/ZNBC6F T21216",
-	},
-	{
-		name: "9ABA450017P0261",
-		desc: "HEX-SCRISO4762M10X25-8.8/ZNBC6FT21216",
-	},
-	{
-		name: "9ABA450017P0313",
-		desc: "HEX-SCR ISO4762 M12X30-8.8/ZNBC6F T21216",
-	},
-	{
-		name: "9ABA450023P0260",
-		desc: "HEX-SCR ISO4017 M6X20-8.8/ZNBC6F T21200",
-	},
-	{
-		name: "9ABA450060P0003",
-		desc: "NUT-NMINST ISO7040 M5-8/ZNBLC6F",
-	},
-	{
-		name: "9ABA450060P0004",
-		desc: "NUT-NMINST ISO7040 M6-8/ZNBC6F",
-	},
-	{
-		name: "9ABA450064P4103",
-		desc: "S-CTSK ISO10642 M5X12-10.9/ZNBC6F T21336",
-	},
-	{
-		name: "9ABA460067P0257",
-		desc: "HEX-SCR ISO7380 M6X12-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P0260",
-		desc: "HEX-S-SCR ISO7380 M6X20-10.9/ZNBLC6F",
-	},
-	{
-		name: "9ABA460067P0310",
-		desc: "HEX-SCR ISO7380 M8X20-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P0311",
-		desc: "HEX-SCR ISO7380 M8X25-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8011",
-		desc: "HEX-SCISO7380M10X16-10.9/ZNBC6FT21326",
-	},
-	{
-		name: "9ABA460067P8015",
-		desc: "HEX-SC ISO7380 M10X25-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8017",
-		desc: "HEX-SCR ISO7380 M10X30-10.9/ZNBC6 T21326",
-	},
-	{
-		name: "9ABA460067P8018",
-		desc: "HEX-SC ISO7380 M10X35-10.9/ZNBC6F T21326",
-	},
-	{
-		name: "9ABA460067P8117",
-		desc: "HEX-SCR ISO7380 M12X30/10.9/ZNC6F T21326",
-	},
-	{
-		name: "9ADA120-32",
-		desc: "HEX HEAD SCREW M 8* 20 8.8-A2F ISO",
-	},
-	{
-		name: "9ADA120-34",
-		desc: "HEX-SCR ISO4017 M8X30-8.8/ZNBL T21200",
-	},
-	{
 		name: "9ADA120-407",
 		desc: "HEX-HD-SCR_ISO4017_M6X8-8.8/ZNBL",
-	},
-	{
-		name: "9ADA120-61",
-		desc: "HEX-SCR ISO4017 M12X40-8.8/ZNBL T21200",
-	},
-	{
-		name: "9ADA181-23",
-		desc: "HEX-B DIN6921 M8X20-8.8/ZNBL T21279",
-	},
-	{
-		name: "9ADA181-36",
-		desc: "HEX-B DIN6921 M10X25-8.8/ZNBL T21279",
-	},
-	{
-		name: "9ADA267-6",
-		desc: "NUT ISO4032 M6-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-7",
-		desc: "NUT ISO4032 M8-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-8",
-		desc: "NUT ISO4032 M10-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA267-9",
-		desc: "NUT ISO4032 M12-8/ZNBL T21180",
-	},
-	{
-		name: "9ADA312-5",
-		desc: "PL-WASH ISO7089 5x10X1-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA312-6",
-		desc: "PL-WASH ISO7089 6x12X1.6-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA312-8",
-		desc: "PL-WASH ISO7089 10X20X2-ST/ZNBL T22000",
-	},
-	{
-		name: "9ADA334-6",
-		desc: "WASH-SP DIN6796 6.4/14-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-7",
-		desc: "WASH-SP DIN6796 8.4/18-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-8",
-		desc: "WASH-SP DIN6796 10.5/23-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA334-9",
-		desc: "WASH-SP DIN6796 13/29-SPST/ZNB T22123",
-	},
-	{
-		name: "9ADA618-54",
-		desc: "SCR-S-HLBL ISO14583 M6X10-8.8/ZNBL",
 	},
 	{
 		name: "9ADA618-55",
@@ -2632,27 +1596,9 @@ const Materials = [
 		desc: "NUT-NMINST_LH_ISO10511_M5-05/ZNBLC6F",
 	},
 	{
-		name: "9ADJ100016P0054",
-		desc: "CHD-SN-B ISO8678 M8X20-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0105",
-		desc: "CHD-SN-BISO8678M10X25-8.8/ZNBLC6F",
-	},
-	{
 		name: "9ADJ100016P0107",
 		desc: "CHD-SN-B_ISO8678_M10X35-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100016P0157",
-		desc: "CUP SQUARE BOLT ISO8678 M12X35-S8.8-A2F",
-	},
-	{
-		name: "9ADJ100047P0155",
-		desc: "CHD-SN-B DIN603 M10X35-8.8/ZNBLC6F",
-	},
-	{
-		name: "9ADJ100047P0204",
-		desc: "CHD-SN-B DIN603 M12X30-8.8/ZNBLC",
 	},
 ];
+
+export default Materials;
